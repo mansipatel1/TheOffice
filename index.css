@@ -4,6 +4,8 @@
 body {
     font-family: 'Special Elite', cursive;
     background-image: url("paper.jpg");
+    font-size: 16px;
+    text-align: center;
 }
 
 #center {
@@ -14,9 +16,35 @@ body {
 }
 
 #inputBox {
-    width: 625px
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 25px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    -webkit-border-radius: 10px;
+    behavior:url("border-radius.htc");
 }
 
 .enter {
     font-size: 150%
+}
+
+.subBut {
+    width: 100px;
+    height: 28px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: 'Special Elite', cursive;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    behavior:url("border-radius.htc");
+}
+
+li{ 
+    list-style: none;
 }
