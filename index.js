@@ -7,7 +7,7 @@ const form = document.querySelector('#userForm')
      }
 
 
-const renderList = function(label, userName) {
+const renderList = function(userName) {
     const list = document.createElement('ul');
     list.appendChild(renderListItem('Name', userName));
     return list;
@@ -19,10 +19,10 @@ const handleSubmit = function(ev) {
   ev.preventDefault()
   const f = ev.target;
   const userName = f.userName.value;
- // const divider = document.createElement('div');
   const users = document.querySelector('#users')
-  users.appendChild(renderList(userName))
-  
+  users.appendChild(renderList(userName));
+
+
   f.reset()
   f.userName.focus()
 }
