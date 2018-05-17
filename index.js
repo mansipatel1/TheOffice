@@ -5,9 +5,11 @@ const charArray = [];
         const button = document.createElement('button');
         button.addEventListener('click', removeItem);
         button.textContent= 'Delete';
-        button.style.width = '50px'
+        button.style.fontSize = '16px'
+        button.style.width = '75px'
         button.style.height = '25px';
-       // button.style. = 'center'
+        button.style.marginLeft= '20px';
+       // button.style.marginTop = '50px';
         item.textContent = `${label}: ${value}`;
         item.appendChild(button);
         
