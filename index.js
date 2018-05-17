@@ -1,6 +1,7 @@
 const form = document.querySelector('#userForm')
 const charArray = []; 
-    const renderListItem = function(label, value) {
+
+const renderListItem = function(label, value) {
         const item = document.createElement('li');
         const button = document.createElement('button');
         button.addEventListener('click', removeItem);
@@ -14,7 +15,7 @@ const charArray = [];
         item.appendChild(button);
         
         return item;
-     }
+    }
 
 
 const renderList = function(userName) {
