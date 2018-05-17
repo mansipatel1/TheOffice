@@ -9,7 +9,7 @@ const charArray = [];
         button.style.width = '75px'
         button.style.height = '25px';
         button.style.marginLeft= '20px';
-       // button.style.marginTop = '50px';
+       // button.style.marginBottom = '15px';
         item.textContent = `${label}: ${value}`;
         item.appendChild(button);
         
