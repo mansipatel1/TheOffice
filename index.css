@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+body {
+    font-family: 'Special Elite', cursive;
+   
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#inputBox {
+    width: 625px
+}
+
+.enter {
+    font-size: 150%
+}
