@@ -3,11 +3,11 @@ const charArray = [];
     const renderListItem = function(label, value) {
         const item = document.createElement('li');
         const button = document.createElement('button');
-        button.addEventListener('click', removeItem);c
+        button.addEventListener('click', removeItem);
         button.textContent= 'Delete';
         button.style.width = '50px'
         button.style.height = '25px';
-      //  button.style. = 'center'
+       // button.style. = 'center'
         item.textContent = `${label}: ${value}`;
         item.appendChild(button);
         
